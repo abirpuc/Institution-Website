@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 0 200px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:active{
+  font-weight: bolder;
+}
+
+
+@media screen and (max-width: 1040px) {
+    body{
+      padding: 0 100px
+    }
+}
+@media screen and (max-width: 1020px) {
+    body{
+      padding: 0 0;
+    }
+}
