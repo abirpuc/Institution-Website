@@ -1,0 +1,69 @@
+.notice-container{
+    border: 1px solid #8b8a8a;
+    position: relative;
+    background-color: rgb(240, 239, 239);
+    height: 355px;
+}
+
+.notice-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.notice-container h1{
+    z-index: 999;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.listItem{
+   margin-left: 80px;
+   display: flex;
+   flex-direction: column;
+}
+
+.listItem>ul>a{
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    color: black;
+}
+
+.listItem>ul>a>i>{
+    color: green;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.notice-btn{
+    cursor: pointer;
+    padding: 8px 0;
+    border: none;
+    width: 20%;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(51, 50, 50) 0%, rgb(117, 116, 116) 100%);
+}
+.noticeCard-container{
+    display: flex;
+    gap: 10px;
+}
+.notice-card{
+    margin-top: 50px;
+    border: 1px solid gray;
+}
+
+.notice-card-btn{
+    padding: 10px auto;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    color: white;
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+.carosul-img{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+/* carousel design */
+
+.button{
+    position: absolute;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+}

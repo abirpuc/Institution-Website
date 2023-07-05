@@ -1,0 +1,30 @@
+.top_nav{
+    width: 100%;
+    background-color: black;
+    height: 35px;
+    /* position: absolute; */
+}
+
+.top_nav ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.top_nav ul li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.top_nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.top_nav ul li a.active{
+    font-weight: bold;
+    font-size: 18px;
+    /* color: red; */
+}

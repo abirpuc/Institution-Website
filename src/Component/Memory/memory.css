@@ -1,0 +1,53 @@
+.memory-container{
+    margin: 40px 0 0 0;
+}
+.gallery-container{
+    width: 100%;
+}
+
+.gallery-btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #467446;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.gallery{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.gallery-card{
+    border: 1px solid rgb(172, 171, 171);
+    width: 50%;
+    text-align: center;
+    color: black;
+}
+
+.gallery-card img{
+    width: 100%;
+}
+
+.gallery-link{
+    text-decoration: none;
+    color: black;
+}
+
+.gallery-link:hover {
+    color: rgb(4, 9, 82);
+}
+
+.gallery p{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 24px;
+    color: gray;
+}
+
+.video-container{
+    margin-top: 20px;
+}

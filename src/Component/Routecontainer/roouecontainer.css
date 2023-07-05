@@ -1,0 +1,44 @@
+.route-card-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 5px;
+}
+
+.route-card{
+    border: 1px solid gray;
+    margin-top: 20px;
+    padding: 10px;
+    width: 90%;
+    background-color: #e9e9e9;
+    box-shadow: 1px 1px 7px gray;
+}
+.route-card p{
+    font-weight: bold;
+}
+.route-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.route-content img{
+    width: 100px;
+    height: 100px;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+}
+.single-items{
+    display: flex;
+    gap: 6px;
+    margin: 2px 8px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.single-items i{
+    color: green;
+}
