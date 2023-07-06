@@ -1,0 +1,11 @@
+.health-container{
+    margin-top: 20px;
+    width: 98%;
+}
+
+.single-health img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+}

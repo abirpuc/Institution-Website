@@ -1,0 +1,19 @@
+.director img{
+    margin-top: 10px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.director-info{
+    margin-top: 0;
+    text-align: center;
+    font-size: 13px;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.director-info p{
+    margin-top: 0;
+    line-height: 20px;
+}

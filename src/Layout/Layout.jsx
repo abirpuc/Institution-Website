@@ -3,6 +3,9 @@ import TopBanner from '../SharedComponent/topBanner/TopBanner';
 import { Outlet } from 'react-router-dom';
 import './layout.css'
 import NavBar from '../SharedComponent/NavBar/NavBar';
+import SideNav from '../SharedComponent/SideNav/SideNav';
+import bottomImg from '../assets/bottomImg.png'
+import Footer from '../SharedComponent/Footer/Footer';
 const Layout = () => {
     return (
         <>
@@ -13,10 +16,13 @@ const Layout = () => {
                     <Outlet></Outlet>
                 </div>
                 <div className='side-nav'>
-                    <h1>side content</h1>
+                   <SideNav/>
                 </div>
             </div>
-            <h1>footer</h1>
+            <div className='bottomImg'>
+                <img src={bottomImg} alt="" />
+            </div>
+            <Footer/>
         </>
     );
 };

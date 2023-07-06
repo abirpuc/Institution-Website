@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const RouteCard = (props) => {
-    console.log(props)
     return (
         <div className="route-card">
                 <p>{props.heading}</p>

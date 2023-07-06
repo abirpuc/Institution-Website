@@ -1,7 +1,7 @@
 .home-layout{
     margin-top: 30px;
     /* border: 1px solid black; */
-    width: 65%;
+    width: 68%;
     margin: 0 auto;
     display: flex;
     gap: 10px;
@@ -12,17 +12,26 @@
 .outlet{
     background-color: white;
     padding: 0 10px;
-    width: 70%;
+    width: 73%;
     /* height: 100vh; */
     box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
 .side-nav{
-    width: 30%;
+    width: 32%;
     background-color: white;
     /* height: 100vh; */
     padding: 10px;
     box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.bottomImg{
+    width: 75%;
+    margin: 40px auto 0 auto;
+}
+
+.bottomImg img{
+    width: 100%;
 }
 
 @media screen and (max-width: 790px) {
