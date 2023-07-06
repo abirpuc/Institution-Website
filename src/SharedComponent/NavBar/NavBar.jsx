@@ -1,6 +1,5 @@
 import React from 'react';
 import './navbar.css'
-// import { Link } from 'react-router-dom';
 import { NavItems } from '../../Data/Navbar';
 import NavItem from './NavItem';
 import { Link } from 'react-router-dom';
@@ -12,24 +11,24 @@ const NavBar = () => {
                 <Link className='nav-item nav-item-campus' to="/">ক্যাম্পাস
                     <div className='hover-items-container dropdown-campus'>
                         <div className="hover-items">
-                            <Link to="/" className='hover-item'>আমাদের কলেজ</Link>
-                            <Link to="/" className='hover-item'>ইতিহাস</Link>
-                            <Link to="/" className='hover-item'>লক্ষ্য ও উদ্দেশ্য</Link>
-                            <Link to="/" className='hover-item'>প্রাতিষ্ঠানিক কাঠামো</Link>
-                            <Link to="/" className='hover-item'>প্রাতিষ্ঠানিক অবকাঠামো</Link>
-                            <Link to="/" className='hover-item'>শুদ্ধাচার সংক্রান্ত তথ্য</Link>
+                            <Link to="/collage" className='hover-item'>আমাদের কলেজ</Link>
+                            <Link to="/history" className='hover-item'>ইতিহাস</Link>
+                            <Link to="/academic-structure" className='hover-item'>লক্ষ্য ও উদ্দেশ্য</Link>
+                            <Link to="/academic-infrastructure" className='hover-item'>প্রাতিষ্ঠানিক কাঠামো</Link>
+                            <Link to="/academic-infrastructure" className='hover-item'>প্রাতিষ্ঠানিক অবকাঠামো</Link>
+                            <Link to="/information-of-purity" className='hover-item'>শুদ্ধাচার সংক্রান্ত তথ্য</Link>
                         </div>
                     </div>
                 </Link>
                 <Link className='nav-item vorthi' to="/">ভর্তি
                     <div className='hover-items-container dropdown-vorthi'>
                         <div className="hover-items">
-                            <Link className='hover-item'>আবেদন প্রক্রিয়া</Link>
-                            <Link className='hover-item'>ভর্তি পরীক্ষা</Link>
-                            <Link className='hover-item'>ভর্তি নীতি</Link>
-                            <Link className='hover-item'>রেজিস্ট্রেশন সিস্টেম</Link>
-                            <Link className='hover-item'>বর্তমান শিক্ষা ব্যবস্থা</Link>
-                            <Link className='hover-item'>বাৎসরিক পরিকল্পনা</Link>
+                            <Link className='hover-item' to="/application-process">আবেদন প্রক্রিয়া</Link>
+                            <Link className='hover-item' to="/admission-test">ভর্তি পরীক্ষা</Link>
+                            <Link className='hover-item' to="/admission-rule">ভর্তি নীতি</Link>
+                            <Link className='hover-item' to="/registration-system">রেজিস্ট্রেশন সিস্টেম</Link>
+                            <Link className='hover-item' to="">বর্তমান শিক্ষা ব্যবস্থা</Link>
+                            <Link className='hover-item' to="">বাৎসরিক পরিকল্পনা</Link>
                         </div>
                     </div>
                 </Link>
