@@ -11,6 +11,8 @@ import Application from "../Component/Application/Application";
 import AdmissionTest from "../Component/AdmissionTest/AdmissionTest";
 import AdmissionRule from "../Component/AdmissionRule/AdmissionRule";
 import RegistrationSystem from "../Component/RegistrationSystem/RegistrationSystem";
+import CurrentEducation from "../Component/CurrentEducation/CurrentEducation";
+import AnnualPlan from "../Component/AnnualPlan/AnnualPlan";
 
 export const route = createBrowserRouter([
     {
@@ -60,6 +62,14 @@ export const route = createBrowserRouter([
             {
                 path:'/registration-system',
                 element:<RegistrationSystem/>
+            },
+            {
+                path:'/current-education',
+                element:<CurrentEducation/>
+            },
+            {
+                path:'/annual-plane',
+                element:<AnnualPlan/>
             }
         ]
     }

@@ -27,8 +27,8 @@ const NavBar = () => {
                             <Link className='hover-item' to="/admission-test">ভর্তি পরীক্ষা</Link>
                             <Link className='hover-item' to="/admission-rule">ভর্তি নীতি</Link>
                             <Link className='hover-item' to="/registration-system">রেজিস্ট্রেশন সিস্টেম</Link>
-                            <Link className='hover-item' to="">বর্তমান শিক্ষা ব্যবস্থা</Link>
-                            <Link className='hover-item' to="">বাৎসরিক পরিকল্পনা</Link>
+                            <Link className='hover-item' to="/current-education">বর্তমান শিক্ষা ব্যবস্থা</Link>
+                            <Link className='hover-item' to="/annual-plane">বাৎসরিক পরিকল্পনা</Link>
                         </div>
                     </div>
                 </Link>
