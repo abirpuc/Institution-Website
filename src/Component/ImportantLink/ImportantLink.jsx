@@ -9,7 +9,7 @@ const ImportantLink = () => {
         <div className='important-link-container'>
             <Button name="গুরুত্বপূর্ণ লিঙ্ক"/>
             <div className='important-link'>
-               { links.map((item,idx) => <Link key={idx} ><i className="fa-sharp fa-solid fa-circle-arrow-right"></i>{item.name}</Link>)}
+               { links.map((item,idx) => <Link key={idx} ><i className="fa-solid fa-play icon"></i>{item.name}</Link>)}
             </div>
         </div>
     );

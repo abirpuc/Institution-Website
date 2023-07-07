@@ -1,11 +1,10 @@
 import React from 'react';
 import './banner.css'
-const Carousel = ({img}) => {
+const Carousel = (props) => {
+    const currentIdx = props.current
+    const img = props.img[currentIdx].img;
     return (
-        <div>
-            <img src={img.img} alt="" width={600} height={350}/>
-            
-        </div>
+            <img className='' src={img} alt="" width={600} height={350}/>
     );
 };
 

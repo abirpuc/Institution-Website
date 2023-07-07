@@ -32,10 +32,10 @@
     color: black;
 }
 
-.listItem>ul>a>i>{
-    color: green;
+.icon{
+    color: #2eec2e;
+    font-size: 10px;
     margin-right: 10px;
-    padding-right: 10px;
 }
 .notice-btn{
     cursor: pointer;

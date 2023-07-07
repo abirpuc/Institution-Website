@@ -3,30 +3,25 @@ import './banner.css'
 import { carouselimg } from '../../Data/carousel';
 import Carousel from './Carousel';
 const Banner = () => {
-    const [current, setCuttent] = useState(0)
-    const [nextindex, setNext] = useState(1)
+    const [current, setCurrent] = useState(0)
+    // const [nextindex, setNext] = useState(1)
 
     const prev = () =>{
-        const FirstSide = current === 0;
-        const newIndex = FirstSide ? carouselimg.length -1 : current -1;
+        setCurrent((current) => (current === 0 ? carouselimg.length - 1 : current - 1 )) 
     }
     const next = () =>{
-        const FirstSide = current === 0;
-        const newIndex = FirstSide ? carouselimg.length -1 : current -1;
+        setCurrent((current) => (current ===  carouselimg.length - 1 ? 0 : current + 1) ) 
     }
 
     return (
-        <div>
-           <div className='carosul-img'>
-            {
-                carouselimg.map((img, indx) => <Carousel key={indx} img={img}></Carousel>)
-            }
-            <div className='button'>
-                <button onClick={prev}><i className="fa-thin fa-square-chevron-left"></i> prev</button>
-                <button onClick={next}><i className="fa-thin fa-square-chevron-right"></i> next</button>
-            </div>
+        <div className='carousel-container'>
+           <div className='carousel-img'>
+            <Carousel img={carouselimg} current={current}/>
            </div>
-           
+            <div className='button'>
+                <button onClick={prev}><p>&lt;</p></button>
+                <button onClick={next}><p>&gt;</p></button>
+            </div>
         </div>
     );
 };

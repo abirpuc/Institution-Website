@@ -9,7 +9,7 @@ const RouteCard = (props) => {
                     <img src={props.img} alt="" />
                     <div className='card-items'>
                         {
-                            props.list.map((item, idx) => <Link key={idx} to="" className='single-items'> <i className="fa-solid fa-arrow-right"></i>
+                            props.list.map((item, idx) => <Link key={idx} to="" className='single-items'> <i className="fa-solid fa-play"></i>
                             {item.name}</Link>)
                         }
                     </div>

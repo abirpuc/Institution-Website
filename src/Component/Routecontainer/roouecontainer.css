@@ -32,6 +32,7 @@
 }
 .single-items{
     display: flex;
+    align-items: center;
     gap: 6px;
     margin: 2px 8px;
     font-size: 14px;
@@ -40,5 +41,6 @@
 }
 
 .single-items i{
-    color: green;
+    color: #2adf2a;
+    font-size: 10px;
 }
