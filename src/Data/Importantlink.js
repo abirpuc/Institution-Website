@@ -2,26 +2,26 @@
 export const links = [
     {
         name:"আমাদের কলেজ",
-        to:'/',
+        to:'/collage',
     },
     {
         name:"ইতিহাস",
-        to:'/',
+        to:'/history',
     },
     {
         name:"লক্ষ ও উদ্দেশ্য",
-        to:'/',
+        to:'/target',
     },
     {
         name:"প্রাতিষ্ঠানিক কাঠামো",
-        to:'/',
+        to:'/academic-structure',
     },
     {
         name:"প্রাতিষ্ঠানিক অবকাঠামো",
-        to:'/',
+        to:'/academic-infrastructure',
     },
     {
         name:"শুদ্ধাচার সংক্রান্ত তথ্য",
-        to:'/',
+        to:'/information-of-purity',
     },
 ]

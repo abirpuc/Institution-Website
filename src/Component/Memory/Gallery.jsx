@@ -1,23 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-const Gallery = (props) => {
+import { photoGallery } from '../../Data/photoGalleryData';
+const Gallery = () => {
     return (
-        <div >
-        <button className='gallery-btn'>ছবি গ্যালারী</button>
-        <div className="gallery">
-            <div className="gallery-card">
-                <img src={props.gallery1} alt="" />
-                 <h2><Link to="" className='gallery-link' title="ভ্রমন">ভ্রমন</Link></h2>
-                 <p>22-01-22</p>
+            <div className="gallery">
+                {
+                    photoGallery.map((item) =>
+                        <div className="gallery-card" key={item.id}>
+                            <img src={item.img} alt="" />
+                            <h2><Link to={item.link} className='gallery-link' title={item.title}>{item.galleryName}</Link></h2>
+                            <p>22-01-22</p>
+                        </div>
+                    )
+                }
             </div>
-            <div className="gallery-card">
-                <img src={props.gallery1} alt="" />
-                 <h2><Link to="" className='gallery-link' title="প্রশিক্ষণ">প্রশিক্ষণ</Link></h2>
-                 <p>22-01-22</p>
-            </div>
-        </div>
-    </div>
     );
 };
 

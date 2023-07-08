@@ -17,13 +17,14 @@
 
 .gallery{
     margin-top: 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 10px;
 }
 
 .gallery-card{
     border: 1px solid rgb(172, 171, 171);
-    width: 50%;
+    width: 100%;
     text-align: center;
     color: black;
 }

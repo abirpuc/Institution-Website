@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './application.css'
 const Application = () => {
     return (
-        <div>
+        <div className='application-container'>
             <h1>আবেদন প্রক্রিয়া</h1>
             <h3>আমাদের পরিচালিত শিক্ষাক্রম ও ভর্তি যোগ্যতা:</h3>
             <h3>জেএসসি (ভোকেশনাল) ৬ষ্ঠ, ৭ম ও ৮ম শ্রেণি</h3>

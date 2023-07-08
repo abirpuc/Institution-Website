@@ -29,7 +29,7 @@ const NoticeBoard = () => {
                         নবম শ্রেণির ফলাফল ২০২২.....</Link>
                 </ul>
             </div>
-            <button className='notice-btn'>সকল নোটিশ</button>
+            <Link to="/all-notice"><button className='notice-btn'>সকল নোটিশ</button></Link>
         </div>
             <div className='noticeCard-container'>
                 <NoticeCard

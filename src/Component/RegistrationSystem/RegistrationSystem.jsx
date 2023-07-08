@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './registration.css';
 const RegistrationSystem = () => {
     return (
-        <div>
+        <div className='registration-container'>
             <h1>রেজিস্ট্রেশন সিস্টেম</h1>
             <p>কারিগরি শিক্ষা বোর্ডের নীতিমালা ও নির্ধারিত তারিখের মধ্যে রেজিষ্ট্রেশন করা হয়।</p>
             <h3>আমাদের পরিচালিত শিক্ষাক্রম ও ভর্তি যোগ্যতা:</h3>

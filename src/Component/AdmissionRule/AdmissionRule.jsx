@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './admissionstyle.css';
 const AdmissionRule = () => {
     return (
-        <div>
+        <div className='admission-container'>
             <h1>কুরিগ্রাম সরকারি টেকনিক্যাল স্কুল ও কলেজ</h1>
             <p>কারিগরি শিক্ষা বোর্ডের নীতিমালা অনুসারে ভর্তি পরীক্ষা নেয়া হয়।</p>
             <h3>আমাদের পরিচালিত শিক্ষাক্রম ও ভর্তি যোগ্যতা:</h3>

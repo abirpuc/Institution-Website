@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './educationstyle.css'
 const CurrentEducation = () => {
     return (
-        <div>
+        <div className='education-container'>
             <h1>বর্তমান শিক্ষা ব্যবস্থা</h1>
             <p>কুড়িগ্রাম পলিটেকনিক ইন্সটিটি</p>
             <p>কারিগরি শিক্ষা বোর্ডের ওয়েভসাইটে প্রকাশ করা হয়।</p>

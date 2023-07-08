@@ -48,6 +48,10 @@
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgb(51, 50, 50) 0%, rgb(117, 116, 116) 100%);
 }
+.notice-btn a{
+    text-decoration: none;
+    color: #fff;
+}
 .noticeCard-container{
     display: flex;
     gap: 10px;

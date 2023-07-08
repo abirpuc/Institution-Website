@@ -1,0 +1,20 @@
+.education-container h1{
+    margin: 40px 0 0 20px;
+    font-size: 20px;
+}
+.education-container h3{
+    margin: 40px 0 0 20px;
+    font-size: 16px;
+}
+.education-container p{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 30px;
+    text-indent: 15px;
+    padding: 0 20px;
+}
+
+.education-container p b{
+    font-size: 16px;
+}

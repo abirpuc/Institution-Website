@@ -13,7 +13,37 @@ import AdmissionRule from "../Component/AdmissionRule/AdmissionRule";
 import RegistrationSystem from "../Component/RegistrationSystem/RegistrationSystem";
 import CurrentEducation from "../Component/CurrentEducation/CurrentEducation";
 import AnnualPlan from "../Component/AnnualPlan/AnnualPlan";
-
+import SscVocational from "../Component/Route/SSCVocational/SscVocationa";
+import HscVocational from "../Component/Route/HscVocational/HscVocational";
+import DirectorGenral from "../Component/Route/DirectorGeneral/DirectorGenral";
+import Principal from "../Component/Route/Principal/Principal";
+import Faculty from "../Component/Route/Faculty/Faculty";
+import DirectorVocational from "../Component/Route/DirectorVocational/DirectorVocational";
+import Staff from "../Component/Route/Staff/Staff";
+import AcademicSyllabus from "../Component/Route/AcademicPaper/AcdemicSyllabus/AcademicSyllabus";
+import AcademicProspectus from "../Component/Route/AcademicPaper/AcademicProspectus/AcademicProspectus";
+import EducationCalendar from "../Component/Route/AcademicPaper/EducationCalendar/EducationCalendar";
+import ExamSchedule from "../Component/Route/AcademicPaper/ExamSchedul/ExamSchedul";
+import Salary from "../Component/Route/Students/Salary/Salary";
+import Uniform from "../Component/Route/Students/Uniform/Uniform";
+import ExamSystem from "../Component/Route/Students/ExamSystem/ExamSystem";
+import RulesRegulation from "../Component/Route/Students/RulesRegulation/RulesRegulation";
+import Students from "../Component/Route/Students/Students/Students"
+import SuccessStory from "../Component/Route/Students/SuccessStory/SuccessStory";
+import InnovativeProject from "../Component/Route/Students/InnovativeProjec/InnovativeProject";
+import BoardResult from "../Component/Route/Result/BoardResult/BoardResult";
+import DigitalClassroom from "../Component/Route/Resurrce/DigitalClassroom/DigitalClassroom";
+import Library from "../Component/Route/Resurrce/Library/Library";
+import ComputerLab from "../Component/Route/Resurrce/ComputerLab/ComputerLab";
+import Playground from "../Component/Route/Resurrce/Playground/Playground";
+import Activities from "../Component/Route/Resurrce/CoCurricurlarActivities/Activities";
+import CitizenChart from "../Component/Route/Resurrce/CitizenChart/CitizenChart";
+import PhotoGallery from "../Component/Route/Gallery/PhotoGallery/PhotoGallery";
+import VideoGallery from "../Component/Route/Gallery/VideoGallery/VideoGallery";
+import Communication from "../Component/Route/Communication/Communication";
+import AllNotice from "../Component/NoticeBoard/AllNotice/AllNotice";
+import TravelPhotoGallery from "../Component/Route/Gallery/TravelPhotoGallery/TravelPhotoGallery";
+import TrainingPhotoGallery from "../Component/Route/Gallery/TrainingPhotoGallery/TrainingPhotoGallery";
 export const route = createBrowserRouter([
     {
         path:'/',
@@ -70,7 +100,131 @@ export const route = createBrowserRouter([
             {
                 path:'/annual-plane',
                 element:<AnnualPlan/>
-            }
+            },
+            {
+                path:'/director-general',
+                element:<DirectorGenral/>
+            },
+            {
+                path:'/director-vocational',
+                element:<DirectorVocational/>
+            },
+            {
+                path:'/principal',
+                element:<Principal/>
+            },
+            {
+                path:'/faculty-member',
+                element:<Faculty/>
+            },
+            {
+                path:'/staff',
+                element:<Staff/>
+            },
+            {
+                path:'/academic-syllabus',
+                element:<AcademicSyllabus/>
+            },
+            {
+                path:'/academic-prospectus',
+                element:<AcademicProspectus/>
+            },
+            {
+                path:'/education-calendar',
+                element:<EducationCalendar/>
+            },
+            {
+                path:'/exam-schedule',
+                element:<ExamSchedule/>
+            },
+            {
+                path:'/student-salary',
+                element:<Salary/>
+            },
+            {
+                path:'/student-uniform',
+                element:<Uniform/>
+            },
+            {
+                path:'/exam-system',
+                element:<ExamSystem/>
+            },
+            {
+                path:'/rules-regulation',
+                element:<RulesRegulation/>
+            },
+            {
+                path:'our-student',
+                element:<Students/>
+            },
+            {
+                path:'/success-story',
+                element:<SuccessStory/>
+            },
+            {
+                path:'/innovative-project',
+                element:<InnovativeProject/>
+            },
+            {
+                path:'/board-result',
+                element:<BoardResult/>
+            },
+            {
+                path:'/digital-classroom',
+                element:<DigitalClassroom/>
+            },
+            {
+                path:'/library',
+                element:<Library/>
+            },
+            {
+                path:'/computer-lab',
+                element:<ComputerLab/>
+            },
+            {
+                path:'/paly-ground',
+                element:<Playground/>
+            },
+            {
+                path:'/co-curricular-activities',
+                element:<Activities/>
+            },
+            {
+                path:'/citizen-chart',
+                element:<CitizenChart/>
+            },
+            {
+                path:'/photo-gallery',
+                element:<PhotoGallery/>
+            },
+            {
+                path:'/video-gallery',
+                element:<VideoGallery/>
+            },
+            {
+                path:'/communication',
+                element:<Communication/>
+            },
+            {
+                path:'/all-notice',
+                element:<AllNotice/>
+            },
+            {
+                path:'/travel-photo-gallery',
+                element:<TravelPhotoGallery/>
+            },
+            {
+                path:'/training-photo-gallery',
+                element:<TrainingPhotoGallery/>
+            },
         ]
+    },
+    {
+        path:'/ssc-vocational',
+        element:<SscVocational/>
+    },
+    {
+        path:'/hsc-vocational',
+        element:<HscVocational/>
     }
 ])
