@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className='nav-bar-container'>
             <div className='nav-bar'>
                 <Link className='nav-item home' to="/"><i className="fa-sharp fa-solid fa-house-chimney"></i></Link>
-                <Link className='nav-item nav-item-campus' to="/">ক্যাম্পাস
+                <Link className='nav-item nav-item-campus'>ক্যাম্পাস
                     <div className='hover-items-container dropdown-campus'>
                         <div className="hover-items">
                             <Link to="/collage" className='hover-item'>আমাদের কলেজ</Link>
@@ -20,7 +20,7 @@ const NavBar = () => {
                         </div>
                     </div>
                 </Link>
-                <Link className='nav-item vorthi' to="/">ভর্তি
+                <Link className='nav-item vorthi' >ভর্তি
                     <div className='hover-items-container dropdown-vorthi'>
                         <div className="hover-items">
                             <Link className='hover-item' to="/application-process">আবেদন প্রক্রিয়া</Link>
@@ -32,7 +32,7 @@ const NavBar = () => {
                         </div>
                     </div>
                 </Link>
-                <Link className='nav-item course' to="/">কোর্সসমূহ
+                <Link className='nav-item course' >কোর্সসমূহ
                     <div className='hover-items-container dropdown-course'>
                         <div className="hover-items">
                         <Link className='hover-item' to="/ssc-vocational">এসএসসি (ভোকেশনাল)</Link>
@@ -41,7 +41,7 @@ const NavBar = () => {
                         </div>
                     </div>
                 </Link>
-                <Link className='nav-item management' to="/">ব্যবস্থাপনা
+                <Link className='nav-item management' >ব্যবস্থাপনা
                     <div className='hover-items-container dropdown-management'>
                         <div className="hover-items">
 
@@ -53,7 +53,7 @@ const NavBar = () => {
                         </div>
                     </div>
                 </Link>
-                <Link className='nav-item academy' to="/">একাডেমিক পেপার
+                <Link className='nav-item academy' >একাডেমিক পেপার
                     <div className='hover-items-container dropdown-academy'>
                         <div className="hover-items">
 
@@ -64,7 +64,7 @@ const NavBar = () => {
                         </div>
                     </div>
                 </Link>
-                <Link className='nav-item student' to="/">শিক্ষার্থী
+                <Link className='nav-item student' >শিক্ষার্থী
                     <div className='hover-items-container dropdown-student'>
                         <div className="hover-items">
 
@@ -78,14 +78,14 @@ const NavBar = () => {
                         </div>
                     </div>
                 </Link>
-                <Link className='nav-item result' to="/">ফলাফল
+                <Link className='nav-item result' >ফলাফল
                     <div className='hover-items-container dropdown-result'>
                         <div className="hover-items">
                             <Link className='hover-item' to="/board-result">বোর্ড পরীক্ষার ফলাফল</Link>
                         </div>
                     </div>
                 </Link>
-                <Link className='nav-item resource' to="/">রিসোর্স
+                <Link className='nav-item resource' >রিসোর্স
                     <div className='hover-items-container dropdown-resource'>
                         <div className="hover-items">
 
@@ -98,7 +98,7 @@ const NavBar = () => {
                         </div>
                     </div>
                 </Link>
-                <Link className='nav-item gallery-item' to="/">গ্যালারী
+                <Link className='nav-item gallery-item' >গ্যালারী
                     <div className='hover-items-container dropdown-gallery-item'>
                         <div className="hover-items">
 
@@ -107,7 +107,6 @@ const NavBar = () => {
                         </div>
                     </div>
                 </Link>
-                <Link className='' to="/"> </Link>
                 <Link className='nav-item communication' to="/communication">যোগাযোগ</Link>
                 <a target="_blank" rel="noopener noreferrer" className='nav-item payment' href="https://live.academyims.com/Student_Portal?fbclid=IwAR2QO6Ew_frUxmFQ8655ApCEZnZu6g9s6G7OPvuguNjP24P9MzaNHzq4YDE">ফি পেমেন্ট</a>
             </div>

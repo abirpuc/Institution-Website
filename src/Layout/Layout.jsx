@@ -4,8 +4,8 @@ import { Outlet } from 'react-router-dom';
 import './layout.css'
 import NavBar from '../SharedComponent/NavBar/NavBar';
 import SideNav from '../SharedComponent/SideNav/SideNav';
-import bottomImg from '../assets/bottomImg.png'
 import Footer from '../SharedComponent/Footer/Footer';
+import BottomImg from '../SharedComponent/BottomImg/BottomImg';
 const Layout = () => {
     return (
         <>
@@ -19,9 +19,7 @@ const Layout = () => {
                    <SideNav/>
                 </div>
             </div>
-            <div className='bottomImg'>
-                <img src={bottomImg} alt="" />
-            </div>
+            <BottomImg/>
             <Footer/>
         </>
     );

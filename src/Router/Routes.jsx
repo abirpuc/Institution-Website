@@ -44,6 +44,10 @@ import Communication from "../Component/Route/Communication/Communication";
 import AllNotice from "../Component/NoticeBoard/AllNotice/AllNotice";
 import TravelPhotoGallery from "../Component/Route/Gallery/TravelPhotoGallery/TravelPhotoGallery";
 import TrainingPhotoGallery from "../Component/Route/Gallery/TrainingPhotoGallery/TrainingPhotoGallery";
+import Overview from "../Component/Route/SSCVocational/Content/Overview";
+import Facilities from "../Component/Route/SSCVocational/Content/Facilities";
+import SingleStaff from "../Component/Route/SSCVocational/SingleStaff";
+import FacultyMember from '../../public/FacultyMember.json'
 export const route = createBrowserRouter([
     {
         path:'/',
@@ -221,10 +225,34 @@ export const route = createBrowserRouter([
     },
     {
         path:'/ssc-vocational',
-        element:<SscVocational/>
+        element:<SscVocational/>,
+        children: [
+            {
+                id: 1,
+                to:'/course-details-overview',
+                element: <Overview/>
+            },
+            {
+                id: 2,
+                to:'/course-details-activities',
+                element: <Activities/>
+            },
+            {
+                id: 1,
+                to:'/course-details-facilities',
+                element: <Facilities/>
+            },
+        ]
     },
     {
         path:'/hsc-vocational',
         element:<HscVocational/>
+    },
+    {
+        path:'/single-staff/:id',
+        loader:async({params})=>{
+            return params
+        },
+        element:<SingleStaff/>
     }
 ])

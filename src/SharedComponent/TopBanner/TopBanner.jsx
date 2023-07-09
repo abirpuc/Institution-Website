@@ -2,7 +2,6 @@ import React from 'react';
 import bannertop from './topbanner.module.css';
 import bannerImg from '../../assets/TopBanner.jpg'
 import TopNav from '../TopNav/TopNav';
-import NavBar from '../NavBar/NavBar';
 const TopBanner = () => {
     return (
         <>
