@@ -16,14 +16,16 @@
     padding-top: 5px;
 }
 
-.top_nav ul li a{
+.top_nav ul li button{
     text-decoration: none;
     color: white;
     margin-left: 5px;
     font-size: 14px;
+    background-color: #ffffff00;
+    border: none;
 }
 
-.top_nav ul li a.active{
+.top_nav ul li button.active{
     font-weight: bold;
     font-size: 18px;
     /* color: red; */

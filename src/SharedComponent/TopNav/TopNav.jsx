@@ -10,10 +10,9 @@ const TopNav = () => {
     return (
         <div>
             <nav className={topnavcss.top_nav}>
-                <Link></Link>
                 <ul>
-                   <li onClick={()=>handleToggle(true)}><Link className={toggle? topnavcss.active :''}to="/">Bangli</Link></li>
-                   <li onClick={()=>handleToggle(false)}><Link className={toggle? ' ' : topnavcss.active} to="/">English</Link></li>
+                   <li onClick={()=>handleToggle(true)}><button className={toggle? topnavcss.active :''}>Bangli</button></li>
+                   <li onClick={()=>handleToggle(false)}><button className={toggle? ' ' : topnavcss.active}>English</button></li>
                 </ul>
             </nav>
         </div>

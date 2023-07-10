@@ -1,9 +1,16 @@
 import React from 'react';
+import { teachers } from '../../../Data/teachersData';
+import FacultyData from '../Faculty/FacultyData';
 
 const Staff = () => {
     return (
         <div>
-            <h3>Staffs</h3>
+            <h1>আমাদের কর্মীরা</h1>
+            <table>
+                {
+                    teachers.map(teacher => <FacultyData key={teacher.id} teacher={teacher}/>)
+                }
+            </table>
         </div>
     );
 };
