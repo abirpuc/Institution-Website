@@ -8,8 +8,7 @@ const Anthem = () => {
             <Button name="জাতীয় সংগীত" />
             <div style={{marginTop:'20px', width:'180px'}}>
                 <audio controls style={{width:'100%', background:'none'}} src={anthem}>
-                    {/* <source src="horse.ogg" type="audio/ogg"/> */}
-                    {/* <source src={anthem} type="audio/mpeg"/> */}
+                    
                  </audio>
                  
                     </div>

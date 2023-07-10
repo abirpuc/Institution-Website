@@ -34,6 +34,23 @@
     width: 100%;
 }
 
+@media screen and (max-width: 1000px) {
+    .home-layout{
+        width: 70%;
+    }
+
+    .outlet{
+        width: 80%;
+    }
+
+    .side-nav{
+        width: 30%;
+    }
+    .bottomImg{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 790px) {
     .home-layout{
         flex-direction: column;

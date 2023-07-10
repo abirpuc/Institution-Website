@@ -163,3 +163,10 @@
 .payment:hover{
     background-color: #052363;
 }
+
+@media screen and (max-width: 1000px) {
+    .nav-bar-container{
+        width: 98%;
+        margin: 0 auto;
+    }
+}
