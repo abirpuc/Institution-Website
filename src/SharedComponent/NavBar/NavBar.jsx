@@ -1,15 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './navbar.css'
 import { NavItems } from '../../Data/Navbar';
 import NavItem from './NavItem';
 import { Link } from 'react-router-dom';
 const NavBar = () => {
+    const [toggle, setToggle] = useState(false)
+    const handleMenu = (t) => {
+        setToggle(t)
+    }
+    const [itemToggle, setItemToggle] = useState(false)
+    const handleItem = (t) => {
+        setItemToggle(t)
+    }
     return (
         <div className='nav-bar-container'>
-            <div className='nav-bar'>
+            <div className='mobile-view' onClick={()=>handleMenu(!toggle)}><i className="fa-solid fa-bars"></i></div>
+            <div className={toggle ? 'nav-bar-mobile' : 'nav-bar'}>
                 <Link className='nav-item home' to="/"><i className="fa-sharp fa-solid fa-house-chimney"></i></Link>
-                <Link className='nav-item nav-item-campus'>ক্যাম্পাস
-                    <div className='hover-items-container dropdown-campus'>
+                <Link className='nav-item nav-item-campus' onClick={()=>handleItem(!itemToggle)}>ক্যাম্পাস
+                    <div className={itemToggle ? 'mobile-dropdown-item' :'hover-items-container dropdown-campus'}>
                         <div className="hover-items">
                             <Link to="/collage" className='hover-item'>আমাদের কলেজ</Link>
                             <Link to="/history" className='hover-item'>ইতিহাস</Link>

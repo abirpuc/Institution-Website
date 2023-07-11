@@ -164,9 +164,80 @@
     background-color: #052363;
 }
 
+.mobile-view{
+    display: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.mobile-view i{
+    padding: 10px;
+    background-color: #979797;
+}
+
 @media screen and (max-width: 1000px) {
     .nav-bar-container{
         width: 98%;
         margin: 0 auto;
     }
+}
+
+@media screen and (max-width: 760px) {
+    .nav-bar{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
+    .nav-bar-mobile{
+        position: absolute;
+        display: block;
+        width: 100%;
+        top: 60px;
+        background-color: #fff;
+        transition: .3s;
+        z-index: 999;
+        
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #efefef;
+    }
+
+    .hover-items-container{
+        position: absolute;
+        background-color: #fff;
+    }
+
+    .nav-item-campus:hover .hover-items-container{
+        display: none;
+        background-color: #fff;
+        color: white;
+    }
+    .vorthi:hover .hover-items-container{
+        display: none;
+    }
+    .course:hover .hover-items-container{
+        display: none;
+    }
+    .management:hover .hover-items-container{
+        display: none;
+    }
+    .academy:hover .hover-items-container{
+        display: none;
+    }
+    .student:hover .hover-items-container{
+        display: none;
+    }
+    .result:hover .hover-items-container{
+        display: none;
+    }
+    .resource:hover .hover-items-container{
+        display: none;
+    }
+    .gallery-item:hover .hover-items-container{
+        display: none;
+    }
+    
 }

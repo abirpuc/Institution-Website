@@ -58,3 +58,9 @@
 .video-container{
     margin-top: 20px;
 }
+
+@media screen and (max-width: 750px) {
+    .gallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

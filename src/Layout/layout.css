@@ -54,5 +54,13 @@
 @media screen and (max-width: 790px) {
     .home-layout{
         flex-direction: column;
+        width: 100%;
+    }
+
+    .outlet{
+        width: 100%
+    }
+    .side-nav{
+        width: 100%;
     }
 }

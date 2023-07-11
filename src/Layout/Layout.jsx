@@ -11,14 +11,14 @@ const Layout = () => {
         <>
             <TopBanner/>
             <NavBar/>
-            {/* <div className="home-layout">
+            <div className="home-layout">
                 <div className='outlet'>
                     <Outlet></Outlet>
                 </div>
                 <div className='side-nav'>
                    <SideNav/>
                 </div>
-            </div> */}
+            </div>
             <BottomImg/>
             <Footer/>
         </>

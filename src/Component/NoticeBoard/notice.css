@@ -2,7 +2,8 @@
     border: 1px solid #8b8a8a;
     position: relative;
     background-color: rgb(240, 239, 239);
-    height: 355px;
+    /* height: 355px; */
+    margin-top: 10px;
 }
 
 .notice-container img{
@@ -42,9 +43,8 @@
     padding: 8px 0;
     border: none;
     width: 20%;
-    position: absolute;
-    bottom: 10%;
-    right: 10%;
+    margin-bottom: 20px;
+    margin-left: 450px;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgb(51, 50, 50) 0%, rgb(117, 116, 116) 100%);
 }
@@ -70,4 +70,20 @@
     border: none;
     color: white;
     width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    .noticeCard-container{
+        flex-direction: column;
+        margin-right: 8px;
+    }
+
+    .notice-card img{
+        width: 100%;
+    }
+
+    .notice-btn{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
 }

@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <Banner/>
-            <TextSlider/>
+            {/* <TextSlider/> */}
             <NoticeBoard/>
             <RouteContainer/>
             <Memory/>

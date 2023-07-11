@@ -44,3 +44,20 @@
     color: #2adf2a;
     font-size: 10px;
 }
+
+@media screen and (max-width: 750px) {
+    .route-card-container{
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .route-card{
+        width: 96%;
+    }
+    .route-card p{
+        margin-left: 100px;
+        font-weight: bolder;
+        font-size: 22px;
+    }
+    .route-content{
+        justify-content: space-evenly;
+    }   
+}
