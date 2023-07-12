@@ -48,6 +48,7 @@ import Overview from "../Component/Route/SSCVocational/Content/Overview";
 import Facilities from "../Component/Route/SSCVocational/Content/Facilities";
 import SingleStaff from "../Component/Route/SSCVocational/SingleStaff";
 import FacultyMember from '../../public/FacultyMember.json'
+import NotFound from "../Component/NotFound/NotFound";
 export const route = createBrowserRouter([
     {
         path:'/',
@@ -254,5 +255,9 @@ export const route = createBrowserRouter([
             return params
         },
         element:<SingleStaff/>
+    },
+    {
+        path:'*',
+        element:<NotFound/>,
     }
 ])
