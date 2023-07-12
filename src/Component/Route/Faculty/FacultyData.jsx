@@ -3,12 +3,12 @@ import React from 'react';
 const FacultyData = ({teacher}) => {
     const {id,name,email,designation,education_qualification,mobile,img} = teacher;
     return (
-        <tr>
+        <tr className='our-faculty-info'>
         <td>{id}</td>
         <td>
             <img src={img} alt={name} />
         </td>
-       <td>
+       <td >
         <tr>
             <td>নাম</td>
             <td>{name}</td>

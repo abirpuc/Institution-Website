@@ -1,6 +1,7 @@
 import React from 'react';
 import { teachers } from '../../../Data/teachersData';
 import FacultyData from './FacultyData';
+import './faculty.css'
 const Faculty = () => {
     return (
         <div>

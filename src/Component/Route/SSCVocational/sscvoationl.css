@@ -143,3 +143,16 @@
     padding: 10px 20px;
     font-size: 20px;
 }
+
+@media screen and (max-width: 750px) {
+    .course-content-container{
+        width: 100%;
+    }
+    .faculty-member-card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .member-card{
+        width: 200px;
+        margin: 0 auto;
+    }
+}

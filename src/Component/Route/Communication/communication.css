@@ -68,3 +68,9 @@ form textarea{
 .send-btn:hover{
     color: #fff;
 }
+
+@media screen and (max-width: 750px) {
+    .send-btn{
+        width: 30%;
+    }
+}
