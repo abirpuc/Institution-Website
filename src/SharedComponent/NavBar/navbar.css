@@ -7,13 +7,14 @@
 }
 
 .hover-items-container{
+    align-items: left;
     display: none;
     width: 200px;
     position: absolute;
     z-index: 999;
     background-color: #fff;
     transition: .3s;
-    
+    margin-left: -16px;
 }
 
 .hover-items{
