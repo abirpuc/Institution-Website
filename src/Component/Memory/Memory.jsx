@@ -11,7 +11,7 @@ const Memory = () => {
             <Gallery/>
             </div>
             <div className="video-container">
-            <button className='gallery-btn'>ছবি গ্যালারী</button>
+            <button className='gallery-btn'>ভিডিও গ্যালারী</button>
             <Video/>
             </div>
         </div>

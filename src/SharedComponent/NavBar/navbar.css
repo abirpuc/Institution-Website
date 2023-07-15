@@ -9,7 +9,7 @@
 .hover-items-container{
     align-items: left;
     display: none;
-    width: 200px;
+    width: 160px;
     position: absolute;
     z-index: 999;
     background-color: #fff;

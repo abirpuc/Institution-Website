@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-        {/* <TopBanner/> */}
         <RouterProvider router={route}>
           
         </RouterProvider>
