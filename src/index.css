@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
   background-image: url('./assets/asset-20.gif');
   background-position: center;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* background-attachment: fixed; */
 }
 
