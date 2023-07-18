@@ -3,7 +3,7 @@ import React from 'react';
 const ComputerLab = () => {
     return (
         <div>
-            <h1>Computer Lab</h1>
+            <h3>Computer Lab</h3>
         </div>
     );
 };

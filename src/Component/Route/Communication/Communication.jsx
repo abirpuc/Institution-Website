@@ -3,7 +3,7 @@ import './communication.css'
 const Communication = () => {
     return (
         <div className='communication-container'>
-            <h1>যোগাযোগ</h1>
+            <h3>যোগাযোগ</h3>
             <div className='form-text-container'>
                 <p><i className="fa-solid fa-location-dot"></i>কুড়িগ্রাম সরকারি টেকনিক্যাল স্কুল ও কলেজ</p>
                 <p><i className="fa-solid fa-phone"></i>মোবাইল : ০১৭১২৩৪৫৬৪</p>

@@ -5,7 +5,7 @@ import './faculty.css'
 const Faculty = () => {
     return (
         <div>
-            <h1>আমাদের শিক্ষকমন্ডলী</h1>
+            <h3>আমাদের শিক্ষকমন্ডলী</h3>
             <table>
                 {
                     teachers.map(teacher => <FacultyData key={teacher.id} teacher={teacher}/>)

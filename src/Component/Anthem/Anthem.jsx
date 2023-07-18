@@ -7,7 +7,7 @@ const Anthem = () => {
         <div className='anthem-container'>
             <Button name="জাতীয় সংগীত" />
             <div style={{marginTop:'20px', width:'180px'}}>
-                <audio controls style={{width:'100%', background:'none'}} src={anthem}>
+                <audio controls style={{width:'130%', background:'none'}} src={anthem}>
                     
                  </audio>
                  

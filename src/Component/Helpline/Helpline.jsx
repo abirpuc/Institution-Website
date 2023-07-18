@@ -6,7 +6,6 @@ import Covid from '../Covid/Covid';
 const Helpline = () => {
     return (
         <div>
-          <Visitor/>
           <HotLine/>
           <Covid/>
         </div>

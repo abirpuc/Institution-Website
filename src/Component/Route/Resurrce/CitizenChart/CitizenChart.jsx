@@ -3,7 +3,7 @@ import React from 'react';
 const CitizenChart = () => {
     return (
         <div>
-            <h1>Citizen Chart</h1>
+            <h3>Citizen Chart</h3>
         </div>
     );
 };

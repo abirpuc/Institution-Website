@@ -15,7 +15,7 @@ const NoticeBoard = () => {
     return (
         <div>
             <div className='notice-container'>
-                <h1>নোটিশ</h1>
+                <h3>নোটিশ</h3>
                 <img src={world} alt="" />
                 <div className='listItem'>
                     <ul>

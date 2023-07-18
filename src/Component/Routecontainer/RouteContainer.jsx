@@ -1,13 +1,23 @@
 import React from 'react';
 import './roouecontainer.css'
 import RouteCard from './RouteCard';
+import Campus from '../../assets/campus.png'
+import Admission from '../../assets/admission.png'
+import CourseList from "../../assets/course-list.png"
+import AcademicPaper from "../../assets/academic_paper.png"
+import Student from "../../assets/Examination_ex.png"
+import Result from "../../assets/GPA.png"
+import Resource from "../../assets/resources-.png"
+import Gallery from "../../assets/gallery.png"
+import Communication from "../../assets/communicaion.png"
+import Management from "../../assets/scholarship.png"
 const RouteContainer = () => {
     return (
         <div className='route-card-container'>
             
             <RouteCard
                 heading = "ক্যাম্পাস"
-                img = ""
+                img = {Campus}
                 list = {
                     [
                         {
@@ -39,7 +49,7 @@ const RouteContainer = () => {
             />
             <RouteCard
                 heading = "ভর্তি"
-                img = ""
+                img = {Admission}
                 list = {
                     [
                         {
@@ -67,7 +77,7 @@ const RouteContainer = () => {
             />
             <RouteCard
                 heading = "কোর্সসমূহ"
-                img = ""
+                img = {CourseList}
                 list = {
                     [
                         {
@@ -87,7 +97,7 @@ const RouteContainer = () => {
             />
             <RouteCard
                 heading = "ব্যবস্থাপনা"
-                img = ""
+                img = {Management}
                 list = {
                     [
                         {
@@ -111,7 +121,7 @@ const RouteContainer = () => {
             />
             <RouteCard
                 heading = "একাডেমিক পেপার"
-                img = ""
+                img = {AcademicPaper}
                 list = {
                     [
                         {
@@ -135,7 +145,7 @@ const RouteContainer = () => {
             />
             <RouteCard
                 heading = "শিক্ষার্থী"
-                img = ""
+                img = {Student}
                 list = {
                     [
                         {
@@ -167,7 +177,7 @@ const RouteContainer = () => {
             />
             <RouteCard
                 heading = "ফলাফল"
-                img = ""
+                img = {Result}
                 list = {
                     [
                         {
@@ -179,7 +189,7 @@ const RouteContainer = () => {
             />
             <RouteCard
                 heading = "রিসোর্স"
-                img = ""
+                img = {Resource}
                 list = {
                     [
                         {
@@ -211,7 +221,7 @@ const RouteContainer = () => {
             />
             <RouteCard
                 heading = "গ্যালারী"
-                img = ""
+                img = {Gallery}
                 list = {
                     [
                         {
@@ -227,7 +237,7 @@ const RouteContainer = () => {
             />
             <RouteCard
                 heading = "যোগাযোগ"
-                img = ""
+                img = {Communication}
                 list = {
                     [
                         {

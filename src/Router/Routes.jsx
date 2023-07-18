@@ -52,12 +52,12 @@ import NotFound from "../Component/NotFound/NotFound";
 export const route = createBrowserRouter([
     {
         path:'/',
+        element:<Home/>
+    },
+    {
+        path:'/',
         element: <Layout/>,
         children:[
-            {
-                path:'/',
-                element:<Home/>
-            },
             {
                 path:'/collage',
                 element:<Collage/>,

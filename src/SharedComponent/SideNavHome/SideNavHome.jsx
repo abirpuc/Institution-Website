@@ -1,20 +1,20 @@
 import React from 'react';
-import './sidenav.css'
 import Director from '../../Component/Director/Director';
 import ImportantLink from '../../Component/ImportantLink/ImportantLink';
 import Anthem from '../../Component/Anthem/Anthem';
-import Visitor from '../../Component/Visitor/Visitor';
-import HotLine from '../../Component/HotLine/HotLine';
 import Helpline from '../../Component/Helpline/Helpline';
-const SideNav = () => {
+import Visitor from '../../Component/Visitor/Visitor';
+
+const SideNavHome = () => {
     return (
         <div>
-          <Director/>
-          <ImportantLink/>
-          <Anthem/>
-          <Visitor/>
+            <Director />
+            <ImportantLink />
+            <Anthem />
+            <Visitor/>
+            <Helpline />
         </div>
     );
 };
 
-export default SideNav;
+export default SideNavHome;

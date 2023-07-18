@@ -3,7 +3,7 @@ import React from 'react';
 const AllNotice = () => {
     return (
         <div>
-            <h1>All notice</h1>
+            <h3>All notice</h3>
         </div>
     );
 };

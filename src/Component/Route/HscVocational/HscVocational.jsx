@@ -1,9 +1,10 @@
 import React from 'react';
+import SscVocational from '../SSCVocational/SscVocationa';
 
 const HscVocational = () => {
     return (
         <div>
-            <h1>hsc vocational</h1>
+            <SscVocational/>
         </div>
     );
 };

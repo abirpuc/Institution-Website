@@ -3,7 +3,7 @@ import React from 'react';
 const RulesRegulation = () => {
     return (
         <div>
-            <h1>Rules Regulation</h1>
+            <h3>Rules Regulation</h3>
         </div>
     );
 };

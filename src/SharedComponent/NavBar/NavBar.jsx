@@ -131,7 +131,7 @@ const NavBar = () => {
                             <div className="hover-items">
                                 <Link to="/collage" className='hover-item'>আমাদের কলেজ</Link>
                                 <Link to="/history" className='hover-item'>ইতিহাস</Link>
-                                <Link to="/academic-structure" className='hover-item'>লক্ষ্য ও উদ্দেশ্য</Link>
+                                <Link to="/target" className='hover-item'>লক্ষ্য ও উদ্দেশ্য</Link>
                                 <Link to="/academic-infrastructure" className='hover-item'>প্রাতিষ্ঠানিক কাঠামো</Link>
                                 <Link to="/academic-infrastructure" className='hover-item'>প্রাতিষ্ঠানিক অবকাঠামো</Link>
                                 <Link to="/information-of-purity" className='hover-item'>শুদ্ধাচার সংক্রান্ত তথ্য</Link>
@@ -237,8 +237,8 @@ const NavBar = () => {
                     <div className={cToggle ? 'display' : 'hover-item-mobile-view'}>
                         <div className="hover-items">
                             <Link to="/collage" className='hover-item' onClick={() => handleMenu(true)}>আমাদের কলেজ</Link>
-                            <Link to="/history" className='hover-item'>ইতিহাস</Link>
-                            <Link to="/academic-structure" className='hover-item' onClick={() => handleMenu(true)}>লক্ষ্য ও উদ্দেশ্য</Link>
+                            <Link to="/history" className='hover-item' onClick={() => handleMenu(true)}>ইতিহাস</Link>
+                            <Link to="/target" className='hover-item' onClick={() => handleMenu(true)}>লক্ষ্য ও উদ্দেশ্য</Link>
                             <Link to="/academic-infrastructure" className='hover-item' onClick={() => handleMenu(true)}>প্রাতিষ্ঠানিক কাঠামো</Link>
                             <Link to="/academic-infrastructure" className='hover-item' onClick={() => handleMenu(true)}>প্রাতিষ্ঠানিক অবকাঠামো</Link>
                             <Link to="/information-of-purity" className='hover-item' onClick={() => handleMenu(true)}>শুদ্ধাচার সংক্রান্ত তথ্য</Link>

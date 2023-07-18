@@ -5,7 +5,7 @@ import FacultyData from '../Faculty/FacultyData';
 const Staff = () => {
     return (
         <div>
-            <h1>আমাদের কর্মীরা</h1>
+            <h3>আমাদের কর্মীরা</h3>
             <table>
                 {
                     teachers.map(teacher => <FacultyData key={teacher.id} teacher={teacher}/>)
