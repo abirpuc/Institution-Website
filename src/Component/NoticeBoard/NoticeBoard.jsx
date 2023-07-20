@@ -42,12 +42,14 @@ const NoticeBoard = () => {
                     clsName="notice-card"
                     img={mujibBorsho}
                     button="হৃদয়ে বঙ্গবন্ধু"
+                    link = "/hrioyebongobondu"
                     btnCls="notice-card-btn"
                 />
                 <NoticeCard
                     clsName="notice-card"
                     img={subontojoyonti}
                     button="সুবর্ণ জয়ন্তী কর্নার"
+                    link = "/sobornojointy"
                     btnCls="notice-card-btn"
                 />
 

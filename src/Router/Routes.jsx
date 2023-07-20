@@ -49,6 +49,8 @@ import Facilities from "../Component/Route/SSCVocational/Content/Facilities";
 import SingleStaff from "../Component/Route/SSCVocational/SingleStaff";
 import FacultyMember from '../../public/FacultyMember.json'
 import NotFound from "../Component/NotFound/NotFound";
+import SobornoJointy from "../Page/Sobornojointy/SobornoJointy";
+import HridoyBongoBondu from "../Page/HridoyBongoboundu/HridoyBongoBondu";
 export const route = createBrowserRouter([
     {
         path:'/',
@@ -255,6 +257,14 @@ export const route = createBrowserRouter([
             return params
         },
         element:<SingleStaff/>
+    },
+    {
+        path:'/sobornojointy',
+        element:<SobornoJointy/>
+    },
+    {
+        path:'/hrioyebongobondu',
+        element:<HridoyBongoBondu/>
     },
     {
         path:'*',

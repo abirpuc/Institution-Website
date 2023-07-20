@@ -10,10 +10,17 @@
     outline: none;
 }
 
+.rdt_Table {
+    width: 68%; /* Set the desired width */
+  }
+  
 
-.p-datatable .p-datatable-tbody > tr > td {
-    height: 160px;
- }
+.rdt_TableHeader {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
 
 table, td, th{
     border: 1px solid black;
@@ -51,7 +58,7 @@ table{
     width: 40px;
 }
 
-.icon{
+.table__icon{
     font-size: 20px;
     color: black;
 }

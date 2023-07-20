@@ -4,7 +4,6 @@ import { carouselimg } from '../../Data/carousel';
 import Carousel from './Carousel';
 const Banner = () => {
     const [current, setCurrent] = useState(0)
-    // const [nextindex, setNext] = useState(1)
 
     const prev = () =>{
         setCurrent((current) => (current === 0 ? carouselimg.length - 1 : current - 1 )) 
@@ -19,8 +18,8 @@ const Banner = () => {
             <Carousel img={carouselimg} current={current}/>
            </div>
             <div className='button'>
-                <button onClick={prev}><p>&lt;</p></button>
-                <button onClick={next}><p>&gt;</p></button>
+                <button onClick={prev}><p className='banner__btn'>&lt;</p></button>
+                <button onClick={next}><p className='banner__btn'>&gt;</p></button>
             </div>
         </div>
     );

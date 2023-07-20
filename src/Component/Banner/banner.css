@@ -24,6 +24,10 @@
     top: 30%;
 }
 
+.banner__btn{
+    font-size: 30px;
+}
+
 .button button{
     background: none;
     border: none;

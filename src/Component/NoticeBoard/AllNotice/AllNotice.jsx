@@ -8,37 +8,49 @@ import pdf_3 from '../../../noticpdf/notice_2.pdf'
 import pdf_4 from '../../../noticpdf/notice_3.pdf'
 import pdf_5 from '../../../noticpdf/notice_4.pdf'
 
-const rowHeight = 300;
 
 const column = [
     {
         name: 'ক্রমিক ',
-        selector: row => row.id,
-        sortable: true,
+        selector: (_, index) => index + 1,
+        sortable: false,
+        width:"100px",
+        wrap:true,
+        wrapHeader:true,
        
     },
     {
         name: 'শিরোনাম ',
         selector: row => row.name,
         sortable: true,
+        wrap:true,
+        width: "220px",
+        wrapHeader: true
        
     },
     {
         name: 'প্রকাশের তারিক',
         selector: row => row.publishData,
         sortable: true,
+        wrap:true,
+        wrapHeader: true
        
     },
     {
         name: 'ভিউ',
         selector: row => row.view,
         sortable: true,
+        wrap:true,
+        wrapHeader: true,
+        width:"70px"
       
     },
     {
         name: 'ডাউনলোড',
         selector: row => row.download,
         sortable: true,
+        wrap:true,
+        wrapHeader: true
       
     },
 ]
@@ -101,27 +113,29 @@ const AllNotice = () => {
         // console.log(newData)
         setSearch(newData)
     }
+
+    const openPdfNewTab = () =>{
+        const win = window.open()
+        win.document.write(
+            `<iframe src="${pdf_5}" style="width:100%; height:100vh;" frameborder="0"></iframe>`
+          );
+    }
     return (
         <div>
             <h3>সকল নোটিশ </h3>
+            <button onClick={openPdfNewTab}>Open pdf</button>
             <div className="search__field">
                 <label htmlFor="">Search</label>
                 <input className='input__field' type="text" placeholder='search by name' onChange={handleSearch} />
             </div>
-            {/* <DataTable
-                tableStyle={{ minWidth: '100%' }}
+            <DataTable
                 columns={column}
                 data={search}
                 highlightOnHover
-                rowHeight={rowHeight}
                 striped
-                width={500}
-                height={500}
-                headerHeight={50}
-                selector
                 pagination
-            /> */}
-            <table>
+            />
+            {/* <table>
                 <tr>
                     <th className="id">ক্রমিক</th>
                     <th className="name">শিরোনাম</th>
@@ -137,15 +151,15 @@ const AllNotice = () => {
                                 <td>{idx + 1}</td>
                                 <td>{d.name}</td>
                                 <td>{d.publishData}</td>
-                                <td className='icon'>{d.view}</td>
-                                <td className='icon'>{d.download}</td>
+                                <td className='table__icon'>{d.view}</td>
+                                <td className='table__icon'>{d.download}</td>
                             </tr>
                             )
                         })
                     }
 
                     </tbody>
-            </table>
+            </table> */}
         </div>
     );
 };
