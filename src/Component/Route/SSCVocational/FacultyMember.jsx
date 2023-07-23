@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const FacultyMember = ({ faculty }) => {
     const { id, name, email, designation, mobile, staff_img } = faculty
     return (
-        <div className='member-card'>
+        <div className='member__card'>
             <div className='faculty-img'>
                 <img src={staff_img} alt={name} />
             </div>

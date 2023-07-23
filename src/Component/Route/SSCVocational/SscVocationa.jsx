@@ -48,8 +48,8 @@ const SscVocational = () => {
                     </div>
                 </div>
                     <div className='faculty-member-container'>
-                        <h3>Faculty Member</h3>
-                        <div className='faculty-member-card-container'>
+                        <h3 className='faculty__title'>Faculty Member</h3>
+                        <div className='faculty__member__card__container'>
                             {
                                 facultyMember.map(faculty => <FacultyMember key={faculty.id} faculty={faculty}></FacultyMember>)
                             }
