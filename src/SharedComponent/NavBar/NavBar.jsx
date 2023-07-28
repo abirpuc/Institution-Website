@@ -265,7 +265,7 @@ const NavBar = () => {
                             <Link className='hover-item' onClick={() => handleMenu(true)}>বেসিক কোর্স</Link>
                         </div>
                     </div>
-                    <Link className='nav-item management'  onClick={() => handManagement(!manToggle)}>ব্যবস্থাপনা
+                    <Link className='nav-item management'  onClick={() => handManagement(!manToggle)}>ব্যবস্থাপনা </Link>
                         <div className={manToggle ? 'display' : 'hover-item-mobile-view'}>
                             <div className="hover-items">
 
@@ -276,17 +276,7 @@ const NavBar = () => {
                                 <Link className='hover-item' to="/staff" onClick={() => handleMenu(true)}>আমাদের কর্মীরা</Link>
                             </div>
                         </div>
-                        <div className='hover-items-container dropdown-management'>
-                            <div className="hover-items">
-
-                                <Link className='hover-item' to="/director-general" onClick={() => handleMenu(true)}>মহাপরিচালক</Link>
-                                <Link className='hover-item' to="/director-vocational" onClick={() => handleMenu(true)}>পরিচালক (ভোকেশনাল)</Link>
-                                <Link className='hover-item' to="/principal" onClick={() => handleMenu(true)}>অধ্যক্ষ</Link>
-                                <Link className='hover-item' to='/faculty-member' onClick={() => handleMenu(true)}>আমাদের শিক্ষকমন্ডলী</Link>
-                                <Link className='hover-item' to="/staff" onClick={() => handleMenu(true)}>আমাদের কর্মীরা</Link>
-                            </div>
-                        </div>
-                    </Link>
+                    
                     <Link className='nav-item academy' onClick={() => handAcademy(!acaToggle)}>একাডেমিক পেপার
                     </Link>
                         <div className={acaToggle ? 'display' : 'hover-item-mobile-view'}>

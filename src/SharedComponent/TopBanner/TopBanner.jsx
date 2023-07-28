@@ -1,6 +1,7 @@
 import React from 'react';
 import bannertop from './topbanner.module.css';
 import bannerImg from '../../assets/TopBanner.jpg'
+// import madrashaImg from '../../assets/banner_m.jpeg'
 import TopNav from '../TopNav/TopNav';
 const TopBanner = () => {
     return (

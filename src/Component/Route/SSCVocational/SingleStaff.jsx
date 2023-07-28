@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { facultyMember } from '../../../Data/facultyMemberData';
-// import TopBanner from '../../../SharedComponent/TopBanner/TopBanner';
+import TopBanner from '../../../SharedComponent/TopBanner/TopBanner';
 import NavBar from '../../../SharedComponent/NavBar/NavBar';
 import BottomImg from '../../../SharedComponent/BottomImg/BottomImg';
 import Footer from '../../../SharedComponent/Footer/Footer';
@@ -13,7 +13,7 @@ const SingleStaff = () => {
         <div>
             <TopBanner/>
             <NavBar/>
-            <div className="single-member-section">
+            <div className="single__member__section">
             {
                 facultyMember.map(member => (member.id === id)? 
                     <div key={member.id} className='single-member-container'>

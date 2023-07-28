@@ -114,16 +114,9 @@ const AllNotice = () => {
         setSearch(newData)
     }
 
-    const openPdfNewTab = () =>{
-        const win = window.open()
-        win.document.write(
-            `<iframe src="${pdf_5}" style="width:100%; height:100vh;" frameborder="0"></iframe>`
-          );
-    }
     return (
         <div>
             <h3>সকল নোটিশ </h3>
-            <button onClick={openPdfNewTab}>Open pdf</button>
             <div className="search__field">
                 <label htmlFor="">Search</label>
                 <input className='input__field' type="text" placeholder='search by name' onChange={handleSearch} />
